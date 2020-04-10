@@ -34,5 +34,25 @@ git remote add origin https://github.com/HollyHjj/frontend.git
 SSH方式 （推荐）
 git remote add origin git@github.com:HollyHjj/frontend.git
 
+3.view git remote
+$ git remote -v
+
+4.pull是将代码从远程仓库同步至本地仓库并merge的命令
+$ git pull origin master
+
+5.fetch是单纯将代码从远程仓库同步至本地仓库，并不作merge
+git fetch                  取远程仓库至本地，保存版本号至.git/FETCH_HEAD；
+git diff origin/master     比较远程origin/master分支与本地差别；
+git merge origin           将远程origin/master merge至本地仓库
+          
+
+$ git add .
+
+$ git commit -m "add test1.cpp"
+
+$ git log
+
+$ git push origin master
+
 
 
