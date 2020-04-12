@@ -54,5 +54,25 @@ $ git log
 
 $ git push origin master
 
+克隆代码：git clone 远程仓库的url
+配置邮箱：git config --global user.email
+配置用户名：git config --global user.name
+从远程仓库下拉代码到本地：git pull
+放弃本地代码的修改：git checkout -- <file>
+将本地代码添加到缓冲区：git add * .
+移除add到缓冲区的文件：git reset HEAD <file>
+将本地代码提交到本地仓库：git commit -m"日志文字"
+将本地仓库同步到远程仓库：git push origin master
+查看日志：git log
+查看某个文件的提交日志：git log 文件名
+查看某个用户的提交日志：git log --author=“author”
+查看某条提交日志相信信息：git show 版本号
+查看git全部命令：git --help
+查看git某个命令的使用：git help 命令名
+查看所有分支：git branch -a
+查看当前分支：git branch
+删除本地分支：git branch -d 分支名
+删除远程分支：git push origin --delete 分支名
+
 
 
